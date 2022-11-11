@@ -6,24 +6,24 @@ class Portfolio extends Component {
     super();
     this.works = [
       {
-        img: "https://miro.medium.com/max/1400/0*MYd28f8vpLiE34ij.jpeg",
-        title: "Modern UI/UX Dashboard Design",
+        img: "https://codewebltd.com/wp-content/uploads/2021/05/ck-website-cover-min-1024x602.png",
+        title: "Central kitchens ",
         text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam asperiores"
+          "Central kitchens was established purely to provide kitchen lovers with extraordinary kitchen concepts that is not only contemporary in its looks but also affordable for every home"
       },
       {
         img:
-          "https://i.pinimg.com/originals/80/a1/17/80a1173fb50fe01bac507532338eb336.png",
-        title: "Food and Consumation Web App",
+          "https://codewebltd.com/wp-content/uploads/2019/11/efghana-website-cover-min-1024x602.png",
+        title: "Entrepreneurs Foundation of Ghana",
         text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam asperiores"
+          "Entrepreneurs Foundation of Ghana, organizers of Ghana Entrepreneurs Awards. Dissatisfied with its current website, she turned to Online looking for a good software and website design company in Ghana to revamp her website."
       },
       {
         img:
-          "https://i.pinimg.com/originals/56/ae/76/56ae76f7bc1b3e0edc962cea1af7035f.png",
-        title: "Future Social Media Web 3.0 d'App",
+          "https://codewebltd.com/wp-content/uploads/2021/05/bluproperties-website-cover-min1-1024x602.png",
+        title: "Blu Properties Company Limited",
         text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam asperiores"
+          "Blu Properties Company Limited is a real estate company based in Accra, Ghana that specialize in providing home space and office spaces to individuals and organizations."
       }
     ];
   }

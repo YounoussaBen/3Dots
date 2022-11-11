@@ -2,33 +2,32 @@ import { Component } from "react";
 import { CgInstagram } from "react-icons/cg";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
+import Logo from "./Logo";
 import "./style.css";
 class Footer extends Component {
   render() {
     return (
       <footer id="contact" className="container footer__container">
         <div className="about">
-          <h3>LOGO</h3>
+        <Logo />
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe
-            voluptatum repellat placeat aperiam. Molestiae consectetur molestias
-            magni laudantium doloremque!
+          We will suppert you in a every way to make your businees successful. Do not hesitate to reach out to us. Customer satisfaction is our priority
           </p>
           <ul className="footer__socials">
             <li>
-              <a href="/#">
-                <AiFillFacebook />
-              </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" >
+          <AiFillFacebook />
+          </a>
             </li>
             <li>
-              <a href="/#">
-                <CgInstagram />
-              </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" >
+          <CgInstagram />
+          </a>
             </li>
             <li>
-              <a href="/#">
-                <AiFillTwitterSquare />
-              </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" >
+          <AiFillTwitterSquare />
+          </a>
             </li>
           </ul>
         </div>
@@ -36,18 +35,18 @@ class Footer extends Component {
           <h3>Services</h3>
           <ul>
             <li>
-              <a href="/#" className="text">
-                Cyber Security
+              <a href="#services" className="text">
+                Software Development
               </a>
             </li>
             <li>
-              <a href="/#" className="text">
-                IT COnsultant
+              <a href="#services" className="text">
+                IT Consultant
               </a>
             </li>
             <li>
-              <a href="/#" className="text">
-                Strategy & Research
+              <a href="#services" className="text">
+                API integration
               </a>
             </li>
           </ul>

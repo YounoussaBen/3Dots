@@ -1,5 +1,6 @@
 import { Component } from "react";
-import { BiBrain } from "react-icons/bi";
+import { GrTroubleshoot } from "react-icons/gr";
+import {GrTechnology} from "react-icons/gr"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
@@ -15,7 +16,7 @@ class Intro extends Component {
         <div className="pos-rel">
           <div className="services__intro__image">
             <img
-              src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src="https://andela.com/wp-content/uploads/2015/12/Tech-Talent-Born-in-Africa-Will-Play-a-Transformational-Role-in-IT.png"
               alt=""
             />
           </div>
@@ -29,15 +30,15 @@ class Intro extends Component {
           >
             <SwiperSlide>
               <div className="icon">
-                <BiBrain />
+                <GrTechnology />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>DIGITAL TECHNOLOGY SOLUTIONS</p>
             </SwiperSlide>
             <SwiperSlide>
               <div className="icon">
-                <BiBrain />
+                <GrTroubleshoot />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>END TO END IoT SOLUTIONS</p>
             </SwiperSlide>
           </Swiper>
         </div>
@@ -45,10 +46,7 @@ class Intro extends Component {
           <div className="services__intro__text">
             <h1>We are the solutions for IT problems</h1>
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam
-              asperiores voluptatibus sequi officiis minus? Eligendi explicabo
-              sequi esse a unde ducimus omnis iure odit dolores, labore tenetur
-              totam inventore eveniet dolorem.
+            Our team of engineers and IT consultants are certified in all major technologies and can guide you with all your technology decisions and IT consulting projects. Our consulting services can provide you a more dependable strategy that is built for the future of your company
             </p>
             <button className="btn btn-primary">More About</button>
           </div>

@@ -17,8 +17,9 @@ class About extends Component {
           <div>
             <h1>Advance Innovation For IT Solutions</h1>
             <p className="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus illo quidem veritatis illum culpa harum voluptate animi facere! Praesentium consectetur eaque impedit repellat obcaecati dolorum quae quam possimus explicabo odit?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem ducimus perferendis consequuntur incidunt laudantium sunt, ab ad, placeat odit, dolorem quisquam neque cum quis eos obcaecati vel voluptates maxime?
+            3dots is an emerging software firm in Ghana, producing world-class quality software for its clients.
+            3dots is committed to helping businesses realize their potential by taking their ideas from concept to reality by implementing the right technology solutions.
+            Founded in 2020, 3dots is present on the African market as a supplier of innovative solutions, adding business value through technology implementation at a professional level.
             </p>
             <div className="about__buttons">
               <button className="btn btn-primary">Get In Touch</button>
@@ -31,7 +32,7 @@ class About extends Component {
           <div style={{ position: "relative" }}>
             <div className="about__image">
               <img
-                src="https://st4.depositphotos.com/17586788/i/600/depositphotos_247586928-stock-photo-a-successful-business-girl-in.jpg"
+                src="https://imageio.forbes.com/specials-images/dam/imageserve/1150881602/0x0.jpg?format=jpg&width=1200"
                 alt="about"
               />
             </div>
