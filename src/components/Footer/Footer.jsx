@@ -4,6 +4,7 @@ import { AiFillTwitterSquare } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
 import Logo from "./Logo";
 import "./style.css";
+
 class Footer extends Component {
   render() {
     return (
@@ -66,7 +67,7 @@ class Footer extends Component {
             </li>
             <li>
               <a href="mailto:lormail@gmail.com" className="text">
-                Email: 3dots@gmail.com
+                Email: info@pkj.com
               </a>
             </li>
           </ul>

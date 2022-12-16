@@ -7,7 +7,7 @@ class Contact extends Component {
       <div className="contact">
         <a href="mailto:lormail@gmail.com">
           <AiFillMail />
-          <span>3dots@gmail.com</span>
+          <span>info@pkj.com</span>
         </a>
 
         <a href="tel:+233593104435">
