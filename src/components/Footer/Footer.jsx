@@ -12,7 +12,7 @@ class Footer extends Component {
         <div className="about">
         <Logo />
           <p className="text">
-          We will suppert you in a every way to make your businees successful. Do not hesitate to reach out to us. Customer satisfaction is our priority
+          We will support you in a every way to make your businees successful. Do not hesitate to reach out to us. Customer satisfaction is our priority
           </p>
           <ul className="footer__socials">
             <li>
